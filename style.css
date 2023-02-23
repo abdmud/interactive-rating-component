@@ -97,8 +97,9 @@ button {
     color: var(--white);
     cursor: pointer;
 }
-.btn:active {
+.btn:focus {
     background-color: var(--lightGrey);
+    color: var(--white);
 }
 .thank-you-div {
     display: flex;
