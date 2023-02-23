@@ -16,8 +16,9 @@
 </head>
 <body>
 
+  <container class="page">
   <!-- Rating state start -->
-  <div class="main">
+  <div class="main show">
     <div class="star">
       <img src="./images/icon-star.svg" alt="star-icon">
     </div>
@@ -40,7 +41,7 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-<div class="thank-you-div">
+<div class="thank-you-div hidden">
   <div class="mobile">
     <img src="./images/illustration-thank-you.svg" alt="thank-you">
   </div>
@@ -52,8 +53,11 @@
 
   <p class="text">We appreciate you taking the time to give a rating. If you ever need more support,
     don’t hesitate to get in touch!</p>
+
+  <button class="rate-again-btn">RATE AGAIN</button>
 </div>
   <!-- Thank you state end -->
-
+</container>
+<script src="./index.js"></script>
 </body>
 </html>
